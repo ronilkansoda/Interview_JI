@@ -64,6 +64,15 @@
    python manage.py migrate
    python manage.py runserver
 
+
+## Client Screenshot
+
 ![Client Screenshot](client/src/assets/g1.png)
+
+## Interviewer Screenshot
+
 ![Interviewer Screenshot](client/src/assets/g2.png)
+
+## Interview Panel Screenshot
+
 ![Interview Panel Screenshot](client/src/assets/g4.png)
