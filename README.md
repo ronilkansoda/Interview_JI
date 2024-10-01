@@ -18,3 +18,48 @@
 - **Database:** PostgreSQL (pgAdmin)
 - **Real-Time Communication:** WebRTC, Socket.io
 - **Styling:** TailwindCSS
+
+## Installation
+
+### Backend Setup (Django)
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ronilkansoda/Interview_JI.git
+
+2. To Run Frontend server:
+   ```bash
+    cd interviewji/client
+    npm i
+    npm run dev
+
+3. For Run Socket server:
+   ```bash
+   cd interviewji/api
+   npm i
+   npm start
+
+4. To setUp Django server:
+   ```bash
+   cd interviewji/server
+   
+5. To setUp Django server:
+   ```bash
+    set this in settings
+    
+    EMAIL_HOST_USER,
+    EMAIL_HOST_PASSWORD,
+    PASSWORD: YourPassword,
+    HOST: YourHost,
+    PORT: yourPort,
+
+    and 
+
+    pip install djangorestframework django-cors-headers
+
+
+6. To Run Django server:
+   ```bash
+   python manage.py makemigrations
+   python manage.py migrate
+   python manage.py runserver

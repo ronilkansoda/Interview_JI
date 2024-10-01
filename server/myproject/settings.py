@@ -88,9 +88,9 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "interviewJi",
         "USER": "postgres",
-        "PASSWORD": "root",
-        "HOST": "localhost",
-        "PORT": "5432",
+        "PASSWORD": "YourPassword",
+        "HOST": "YourHost",
+        "PORT": "yourPort",
     }
 }
 
@@ -138,8 +138,8 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = "ronilkansoda.work03@gmail.com"
-EMAIL_HOST_PASSWORD = "vkvy ptfa oinp sdcv" 
+EMAIL_HOST_USER = "yourHostEmail"
+EMAIL_HOST_PASSWORD = "YourHostPassword" 
 # for EMAIL_HOST_PASSWORD go(search) to app password in the accounts and paste the password in this and 2-step verification is must 
 EMAIL_USE_TLS = True
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
