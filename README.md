@@ -19,6 +19,19 @@
 - **Real-Time Communication:** WebRTC, Socket.io
 - **Styling:** TailwindCSS
 
+
+## Real-Time Features (WebRTC & WebSockets)
+Make sure your WebRTC and Socket.io configurations are correctly set up for video calling and real-time communication. Refer to the WebRTC Setup and Socket Setup documentation for any specific details.
+
+## Usage
+- Users can sign up for mock interviews or be invited by companies for technical interviews.
+- Interview Engineers can schedule interviews based on their expertise and availability.
+- Real-time coding and video sessions can be conducted between Interview Engineers and candidates.
+- The OTP generation system ensures that only authorized users can access scheduled interviews.
+
+## Contributing
+Contributions are welcome! If you’d like to improve the platform or add new features, please submit a pull request.
+
 ## Installation
 
 ### Backend Setup (Django)
